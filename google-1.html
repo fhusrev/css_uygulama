@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      div.container {
+        text-align: center;
+      }
+
+      main > article.container {
+        margin: 0 120px;
+        background-color: #eeeeee;
+        text-align: center;
+      }
+
+      section.container {
+        display: flex;
+        margin: 0 120px;
+        padding: 2px 0;
+        font-size: 15px;
+      }
+
+      main section :nth-child(1).container {
+        width: 36%;
+        margin-right: 2px;
+        background-color: #7ee5da;
+        text-align: center;
+      }
+
+      main section :nth-child(2).container {
+        width: 20%;
+        margin-right: 2px;
+        background-color: #70ccc2;
+        text-align: center;
+      }
+
+      main section :nth-child(3).container {
+        width: 44%;
+        background-color: #62b3aa;
+        text-align: center;
+        padding: 2px;
+      }
+
+      footer p.container {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 13px;
+      }
+
+      .box-2 {
+        font-size: 13px;
+        padding: 10px;
+      }
+
+      .in-bl {
+        display: inline-block;
+        padding: 2px;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <div class="container">
+        <img
+          src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg"
+          width="350px"
+          height="110px"
+        />
+      </div>
+    </header>
+
+    <main>
+      <article class="container">
+        <div>Search the web using Google!</div>
+        <div><input type="text" size="40px" /></div>
+        <div class="in-bl">
+          <div>
+            <input type="button" value="Google Search" />
+          </div>
+        </div>
+
+        <div class="in-bl">
+          <div>
+            <input type="button" value="I'm feeling lucky" />
+          </div>
+        </div>
+      </article>
+
+      <section class="container">
+        <div class="container">
+          <p>Special Searches</p>
+          <a href="#">Stanford Search</a><br />
+          <a href="#">Linux Search</a>
+        </div>
+        <div style="padding-top: 5px" class="container">
+          <a href="#">Help!</a><br />
+          <a href="#">About Google!</a><br />
+          <a href="#">Company Info</a><br />
+          <a href="#"> Google! Logos</a>
+        </div>
+        <div class="container">
+          <div>Get Google!</div>
+          <div>Uptades montly:</div>
+          <input type="text" value="your e-mail" />
+          <div>
+            <input type="submit" value="Subcribe" />
+            <a class="box-2" href="#">Archive</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="after"></div>
+
+    <footer class="container">
+      <p class="container">Copyright ©1998 Google Inc.</p>
+    </footer>
+  </body>
+</html>
